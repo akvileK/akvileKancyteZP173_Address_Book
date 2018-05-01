@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="50dp"
+            android:text="Address Book"
+            android:textColor="#008294"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.701"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.043" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="97dp"
+            android:layout_height="74dp"
+            app:srcCompat="@drawable/book"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textColor="#008294"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="Phone"
+            android:textColor="#008294"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="279dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="E-mail"
+            android:textColor="#008294"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/icon"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/phone"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="279dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="47dp"
+            android:layout_height="41dp"
+            app:srcCompat="@drawable/sent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#008294"
+            android:text="Create"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="470dp" />
+
+
+</android.support.constraint.ConstraintLayout>
